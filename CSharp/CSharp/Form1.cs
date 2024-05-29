@@ -25,6 +25,11 @@ namespace CSharp // namespace 이름 변경하면 에러남.
             MessageBox.Show("메세지 박스 보여주기");
             // 텍스트 박스에 메세지 출력
             textBox_print.Text = "this is \r\n multiLine \r\n TextBox!"; // 여러 줄 텍스트 출력
+            {
+                int a = 10;
+            }
+
+            textBox_print.Text = a.ToString();
 
             // C# interactive 실행해보기
             // [검색] > [기능 검색] > 'C# 대화형' 검색
@@ -52,7 +57,12 @@ namespace CSharp // namespace 이름 변경하면 에러남.
             string name = "John"; // 유니코드 문자열
 
             // 2. 자료형 특정x
+            var name2 = "your name";
+            var num2 = 1000;
+            var one_char = '0';
             // 3. 자료형 특정하지 않았을 때 타입 확인
+            // 4. 배열
+
 
         }
     }
