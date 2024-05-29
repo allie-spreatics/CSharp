@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace CSharp
 {
     partial class Form1
     {
@@ -33,17 +33,17 @@
             // 
             // textBox_print
             // 
-            this.textBox_print.Location = new System.Drawing.Point(5, 5);
+            this.textBox_print.Location = new System.Drawing.Point(4, 12);
             this.textBox_print.Multiline = true;
             this.textBox_print.Name = "textBox_print";
-            this.textBox_print.Size = new System.Drawing.Size(594, 391);
+            this.textBox_print.Size = new System.Drawing.Size(784, 426);
             this.textBox_print.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(605, 403);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox_print);
             this.Name = "Form1";
             this.Text = "Form1";
