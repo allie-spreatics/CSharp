@@ -171,15 +171,30 @@ namespace CSharp // namespace 이름 변경하면 에러남.
 
            
         }
+        // --------------- 실습2.  버튼 클릭시 메세지 박스 띄우기 ---------------
 
-        // 버튼더블클릭 -> 버튼에 대한 코드 자동생성
+        // 버튼더블클릭 -> 버튼에 대한 함수는 자동생성
         private void button_hello_click(object sender, System.EventArgs e)
         {
             // 버튼 클릭했을 때 여기 내부 코드 실행됨
+            MessageBox.Show("실습2: 안녕!");
         }
 
-        // --------------- 실습2.  Calculation method 만들기 ---------------
+        private void textBox1_TextChanged(object sender, System.EventArgs e)
+        {
+            
+        }
 
+        private void button_input_Click(object sender, System.EventArgs e)
+        {
+            textBox_print.Text += textBox_input.Text+"\r\n";
+            textBox_input.Text = "";
+        }
+
+        private void button_TextReset(object sender, System.EventArgs e)
+        {
+            textBox_print.Text = "";
+        }
     }
 
     namespace namespaceA
